@@ -1,0 +1,419 @@
+.app-shell{min-height:100vh;display:flex;background:#f4f7fb}.sidebar{width:286px;position:fixed;inset:0 auto 0 0;background:linear-gradient(180deg,#06192e,#08233f);color:#fff;padding:20px 16px;display:flex;flex-direction:column;z-index:30;box-shadow:8px 0 30px rgba(5,20,38,.04)}.sidebar-brand{display:flex;align-items:center;gap:12px;padding:4px 8px 20px;border-bottom:1px solid rgba(255,255,255,.08)}.sidebar-avatar{width:50px;height:50px;border-radius:50%;background:linear-gradient(145deg,#fff,#edf6ff);display:flex;align-items:center;justify-content:center;gap:1px;flex:0 0 auto;box-shadow:0 10px 28px rgba(0,0,0,.16)}.sidebar-avatar span{font-family:Manrope;font-weight:900;color:#0b80d9;font-size:16px}.sidebar-avatar b{font-family:Manrope;color:#ed2632;font-size:15px}.sidebar-brand strong,.sidebar-brand small{display:block}.sidebar-brand strong{font-size:16px}.sidebar-brand small{font-size:8px;color:#8da9c6;margin-top:2px}.sidebar-nav{display:flex;flex-direction:column;gap:6px;padding-top:18px;overflow-y:auto}.nav-section{font-size:8px;letter-spacing:1.4px;font-weight:800;color:#617c99;padding:0 11px 5px}.company-section{margin-top:12px}.nav-link,.company-nav,.sidebar-logout{width:100%;border:1px solid transparent;background:transparent;color:#a8bad0;display:flex;align-items:center;gap:11px;border-radius:11px;min-height:43px;padding:9px 11px;font-size:11px;font-weight:700;text-align:left;transition:.18s ease}.nav-link svg{width:14px;flex:0 0 auto}.nav-link:hover,.company-nav:hover{background:rgba(255,255,255,.06);color:#fff;transform:translateX(2px)}.nav-link.active{background:linear-gradient(90deg,#0f65b8,#1682ff);color:#fff;box-shadow:0 8px 20px rgba(0,83,164,.22)}.company-nav{min-height:60px;padding:8px 10px}.company-logo-wrap{width:58px;height:42px;border-radius:10px;display:grid;place-items:center;background:rgba(255,255,255,.08);overflow:hidden;flex:0 0 auto;padding:5px}.company-logo-wrap img{width:100%;height:100%;object-fit:contain;filter:none;opacity:1}.company-nav-copy{display:flex;flex-direction:column;gap:2px;min-width:0}.company-nav-copy strong{font-family:Inter,sans-serif;font-size:10px;color:#dce7f3}.company-nav-copy small{font-size:6.8px;color:#718aa5}.company-nav.active{color:#fff;background:rgba(255,255,255,.09)}.company-nav.active .company-logo-wrap{background:#fff;box-shadow:0 6px 14px rgba(0,0,0,.14)}.company-nav.iparcel.active{box-shadow:inset 3px 0 #1682ff}.company-nav.ipxpress.active{box-shadow:inset 3px 0 #95a6b8}.company-nav.swift.active{box-shadow:inset 3px 0 #ef4444}.company-nav.nagali.active{box-shadow:inset 3px 0 #c08a4b}.sidebar-logout{margin-top:auto;color:#9fb1c5;border-top:1px solid rgba(255,255,255,.07);border-radius:0;padding-top:16px}.sidebar-logout:hover{color:#fff}.main-area{margin-left:286px;width:calc(100% - 286px);min-height:100vh}.topbar{height:76px;background:#fff;border-bottom:1px solid #e1e8f1;padding:0 32px;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;z-index:20}.topbar-title span,.topbar-title strong{display:block}.topbar-title strong{font-size:13px;margin-top:3px;color:#24354b}.enhanced-topbar{gap:24px}.topbar-center{height:39px;width:min(410px,35vw);margin-left:auto;display:flex;align-items:center;gap:9px;border:1px solid #dfe7f1;background:#f7f9fc;border-radius:10px;padding:0 11px;color:#8090a4}.topbar-center:focus-within{background:#fff;border-color:#add2fa;box-shadow:0 0 0 3px #eef6ff}.topbar-center input{border:0;outline:0;background:transparent;width:100%;font-size:9px}.topbar-actions{display:flex;align-items:center;gap:12px}.notification-button{width:34px;height:34px;border:0;border-radius:9px;background:transparent;color:#5f7188;display:grid;place-items:center}.notification-button:hover{background:#f2f6fb}.top-user{display:flex;align-items:center;gap:9px}.top-user>span{width:37px;height:37px;border-radius:50%;display:grid;place-items:center;background:#39389e;color:#fff;font-weight:800;font-size:11px;box-shadow:0 6px 15px rgba(57,56,158,.18)}.top-user strong,.top-user small{display:block}.top-user strong{font-size:10px}.top-user small{font-size:8px;color:#8d99a9;margin-top:2px}.page-content{padding:32px;max-width:1600px;margin:0 auto}.page-heading{display:flex;align-items:center;justify-content:space-between;gap:18px;margin-bottom:22px}.page-heading h1{font-size:29px;letter-spacing:-.8px;margin:6px 0 0}.heading-actions{display:flex;gap:9px}.primary-action,.secondary-action{height:41px;border-radius:10px;padding:0 14px;border:0;display:inline-flex;align-items:center;justify-content:center;gap:8px;font-size:10px;font-weight:800}.primary-action{background:#1682ff;color:#fff;box-shadow:0 8px 20px rgba(22,130,255,.18)}.secondary-action{background:#fff;color:#4c5f75;border:1px solid #dfe7f1}.primary-action:hover{background:#0876e9}.secondary-action:hover{background:#f8fbff}.panel{background:#fff;border:1px solid #dfe7f1;border-radius:15px;box-shadow:0 5px 18px rgba(25,44,68,.04)}.employee-directory-panel{overflow:hidden}.directory-toolbar{padding:14px 16px;display:flex;align-items:center;justify-content:space-between;gap:12px;border-bottom:1px solid #e8edf3}.directory-search{height:42px;width:min(520px,52vw);display:flex;align-items:center;gap:9px;padding:0 12px;border:1px solid #dce5ef;border-radius:10px;background:#fbfcfe;color:#8998aa}.directory-search:focus-within{background:#fff;border-color:#add2fa;box-shadow:0 0 0 3px #eef6ff}.directory-search input{border:0;background:transparent;outline:0;flex:1;font-size:10px;min-width:0}.directory-toolbar-right{display:flex;align-items:center;gap:12px}.directory-toolbar-right select{height:40px;min-width:145px;border:1px solid #dce5ef;border-radius:10px;background:#fff;color:#526278;padding:0 10px;font-size:9px}.result-count{font-size:8px;color:#8b98aa;white-space:nowrap}.result-count b{font-size:14px;color:#26384f;margin-right:3px}.directory-error{margin:12px 16px 0;background:#fff0f0;border:1px solid #ffd7d7;color:#b64141;padding:9px 10px;border-radius:9px;font-size:9px}.table-wrap{overflow:auto}.employee-table{width:100%;border-collapse:collapse;min-width:900px}.employee-table th{text-align:left;padding:11px 13px;border-bottom:1px solid #e5ebf2;font-size:7.5px;letter-spacing:1px;text-transform:uppercase;color:#8794a6;background:#fbfcfe}.employee-table td{padding:11px 13px;border-bottom:1px solid #edf1f5;font-size:9px;color:#5d6e83;vertical-align:middle}.employee-table tbody tr{transition:background .15s ease}.employee-table tbody tr:hover{background:#f8fbff;cursor:pointer}.employee-cell{display:flex;align-items:center;gap:10px;min-width:260px}.employee-cell img{width:42px;height:42px;border-radius:50%;object-fit:cover;background:#eaf1f8;border:1px solid #d9e4ef}.employee-cell strong,.employee-cell small{display:block}.employee-cell strong{font-family:Inter,sans-serif;font-size:9.5px;color:#26364c}.employee-cell small{font-size:7.3px;color:#94a0af;margin-top:3px;text-transform:capitalize}.status-pill{display:inline-flex;padding:5px 8px;border-radius:999px;background:#eef3f8;color:#64768c;font-size:7.5px;font-weight:800}.status-pill.regular,.status-pill.present,.status-pill.approved{background:#e8f8f1;color:#147858}.status-pill.probationary,.status-pill.late,.status-pill.pending{background:#fff4dc;color:#a36a04}.status-pill.resigned,.status-pill.terminated,.status-pill.rejected{background:#ffecec;color:#bd3c3c}.status-pill.not-logged{background:#eef2f6;color:#68788c}.empty-row{text-align:center!important;padding:30px!important;color:#94a0af!important}@media(max-width:1000px){.sidebar{width:236px}.main-area{margin-left:236px;width:calc(100% - 236px)}.company-logo-wrap{width:48px}.page-content{padding:24px 18px}.topbar-center{display:none}.directory-toolbar{align-items:stretch;flex-direction:column}.directory-search{width:100%}.directory-toolbar-right{justify-content:space-between}}@media(max-width:720px){.sidebar{position:static;width:100%;height:auto}.app-shell{display:block}.main-area{margin-left:0;width:100%}.sidebar-nav{display:grid;grid-template-columns:1fr 1fr}.company-section{grid-column:1/-1}.company-nav{min-height:54px}.sidebar-logout{margin-top:14px}.page-heading{align-items:flex-start;flex-direction:column}.topbar{padding:0 18px}.top-user div{display:none}.heading-actions{width:100%}.heading-actions button{flex:1}}
+
+
+/* =========================================================
+   Sidebar + topbar polish
+   ========================================================= */
+
+.sidebar{
+  height:100dvh;
+  overflow:hidden;
+  padding:20px 16px 16px;
+}
+
+.sidebar-brand{
+  flex:0 0 auto;
+}
+
+.sidebar-nav{
+  flex:1 1 auto;
+  min-height:0;
+  overflow-y:auto;
+  overflow-x:hidden;
+  padding-top:18px;
+  padding-right:2px;
+  scrollbar-width:none;
+  -ms-overflow-style:none;
+  overscroll-behavior:contain;
+}
+
+.sidebar-nav::-webkit-scrollbar{
+  width:0;
+  height:0;
+  display:none;
+}
+
+.nav-link,
+.company-nav,
+.sidebar-logout{
+  max-width:100%;
+  min-width:0;
+}
+
+.nav-link{
+  min-height:46px;
+  padding:10px 14px;
+  gap:15px;
+  border-radius:12px;
+}
+
+.nav-link svg{
+  width:16px;
+  height:16px;
+  flex:0 0 16px;
+  margin:0;
+}
+
+.nav-link span{
+  line-height:1.2;
+}
+
+.nav-link:hover,
+.company-nav:hover{
+  transform:none;
+}
+
+.company-section{
+  margin-top:16px;
+}
+
+.company-nav{
+  min-height:66px;
+  padding:10px 12px;
+  gap:13px;
+  overflow:hidden;
+}
+
+.company-logo-wrap{
+  width:64px;
+  height:46px;
+  flex:0 0 64px;
+  padding:6px;
+  border-radius:12px;
+}
+
+.company-logo-wrap img{
+  display:block;
+  max-width:100%;
+  max-height:100%;
+  object-fit:contain;
+}
+
+.company-nav-copy{
+  flex:1 1 auto;
+  min-width:0;
+}
+
+.company-nav-copy strong{
+  font-size:10.5px;
+  line-height:1.25;
+}
+
+.company-nav-copy small{
+  font-size:7px;
+  margin-top:1px;
+}
+
+.sidebar-logout{
+  flex:0 0 auto;
+  margin-top:12px;
+  min-height:48px;
+  padding:14px 12px 4px;
+  gap:14px;
+}
+
+.sidebar-logout svg{
+  width:15px;
+  height:15px;
+  flex:0 0 15px;
+}
+
+/* Page identity in the upper bar */
+.topbar{
+  height:82px;
+}
+
+.enhanced-page-identity{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  min-width:190px;
+  padding:8px 12px 8px 10px;
+  border:1px solid #e3eaf2;
+  border-radius:12px;
+  background:linear-gradient(135deg,#ffffff 0%,#f8fbff 100%);
+  box-shadow:0 5px 15px rgba(24,52,82,.035);
+}
+
+.page-identity-accent{
+  width:4px;
+  height:35px;
+  border-radius:999px;
+  background:linear-gradient(180deg,#1682ff,#62b4ff);
+  box-shadow:0 0 0 4px rgba(22,130,255,.07);
+  flex:0 0 4px;
+}
+
+.page-identity-copy{
+  min-width:0;
+}
+
+.enhanced-page-identity .eyebrow{
+  display:block;
+  margin:0 0 3px;
+  font-size:7.5px;
+  letter-spacing:1.3px;
+  color:#6c8097;
+}
+
+.enhanced-page-identity strong{
+  display:block;
+  margin:0;
+  font-size:15px;
+  line-height:1.15;
+  letter-spacing:-.2px;
+  color:#1f3148;
+}
+
+@media(max-width:1000px){
+  .company-logo-wrap{
+    width:54px;
+    height:42px;
+    flex-basis:54px;
+  }
+  .enhanced-page-identity{
+    min-width:165px;
+  }
+}
+
+@media(max-width:720px){
+  .sidebar{
+    height:auto;
+    overflow:visible;
+  }
+
+  .sidebar-nav{
+    overflow:visible;
+    padding-right:0;
+  }
+
+  .enhanced-page-identity{
+    min-width:0;
+    padding:7px 9px;
+  }
+
+  .page-identity-accent{
+    height:31px;
+  }
+}
+
+
+/* Final sidebar icon/label spacing fix */
+.nav-link{
+  display:flex;
+  align-items:center;
+  gap:14px !important;
+  padding:7px 12px !important;
+  min-height:50px;
+}
+
+.nav-icon{
+  width:34px;
+  height:34px;
+  min-width:34px;
+  flex:0 0 34px;
+  display:grid;
+  place-items:center;
+  border-radius:9px;
+  background:rgba(255,255,255,.045);
+  color:#dce8f5;
+}
+
+.nav-icon svg{
+  width:15px !important;
+  height:15px !important;
+  margin:0 !important;
+  display:block;
+}
+
+.nav-label{
+  display:block;
+  min-width:0;
+  line-height:1.2;
+  font-size:11px;
+  font-weight:700;
+}
+
+.nav-link.active .nav-icon{
+  background:rgba(255,255,255,.16);
+  color:#fff;
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.08);
+}
+
+.nav-link:hover .nav-icon{
+  background:rgba(255,255,255,.10);
+  color:#fff;
+}
+
+.sidebar-logout{
+  display:flex;
+  align-items:center;
+  gap:14px !important;
+  padding:10px 12px 2px !important;
+}
+
+.sidebar-logout .nav-icon{
+  background:transparent;
+  color:#9fb1c5;
+}
+
+.sidebar-logout:hover .nav-icon{
+  color:#fff;
+}
+
+@media(max-width:1000px){
+  .nav-link{
+    gap:12px !important;
+  }
+
+  .nav-icon{
+    width:32px;
+    height:32px;
+    min-width:32px;
+    flex-basis:32px;
+  }
+}
+
+
+/* =========================================================
+   HARD FIX: sidebar navigation is always icon | label
+   Uses CSS Grid so icon/text cannot stack vertically.
+   ========================================================= */
+
+.sidebar .sidebar-nav .nav-link{
+  display:grid !important;
+  grid-template-columns:38px minmax(0,1fr) !important;
+  grid-template-rows:48px !important;
+  align-items:center !important;
+  justify-content:stretch !important;
+  column-gap:14px !important;
+
+  width:100% !important;
+  min-height:48px !important;
+  height:48px !important;
+  padding:0 12px !important;
+
+  text-align:left !important;
+  white-space:nowrap !important;
+  overflow:hidden !important;
+}
+
+.sidebar .sidebar-nav .nav-link .nav-icon{
+  grid-column:1 !important;
+  grid-row:1 !important;
+
+  width:34px !important;
+  height:34px !important;
+  min-width:34px !important;
+  margin:0 !important;
+
+  display:grid !important;
+  place-items:center !important;
+  align-self:center !important;
+  justify-self:start !important;
+
+  border-radius:9px !important;
+}
+
+.sidebar .sidebar-nav .nav-link .nav-icon svg{
+  width:15px !important;
+  height:15px !important;
+  min-width:15px !important;
+  margin:0 !important;
+  padding:0 !important;
+  display:block !important;
+}
+
+.sidebar .sidebar-nav .nav-link .nav-label{
+  grid-column:2 !important;
+  grid-row:1 !important;
+
+  display:block !important;
+  position:static !important;
+  width:auto !important;
+  min-width:0 !important;
+  margin:0 !important;
+  padding:0 !important;
+
+  align-self:center !important;
+  justify-self:start !important;
+
+  font-size:11px !important;
+  font-weight:700 !important;
+  line-height:1 !important;
+  white-space:nowrap !important;
+  overflow:hidden !important;
+  text-overflow:ellipsis !important;
+}
+
+/* Slightly cleaner spacing between navigation items */
+.sidebar .sidebar-nav{
+  gap:8px !important;
+}
+
+/* Sign out uses the exact same row layout */
+.sidebar .sidebar-logout{
+  display:grid !important;
+  grid-template-columns:38px minmax(0,1fr) !important;
+  grid-template-rows:48px !important;
+  align-items:center !important;
+  column-gap:14px !important;
+
+  width:100% !important;
+  min-height:58px !important;
+  padding:10px 12px 0 !important;
+}
+
+.sidebar .sidebar-logout .nav-icon{
+  grid-column:1 !important;
+  grid-row:1 !important;
+  width:34px !important;
+  height:34px !important;
+  min-width:34px !important;
+  display:grid !important;
+  place-items:center !important;
+  margin:0 !important;
+}
+
+.sidebar .sidebar-logout .nav-label{
+  grid-column:2 !important;
+  grid-row:1 !important;
+  display:block !important;
+  position:static !important;
+  margin:0 !important;
+  padding:0 !important;
+  font-size:11px !important;
+  line-height:1 !important;
+  white-space:nowrap !important;
+}
+
+/* Company rows stay horizontal too */
+.sidebar .company-nav{
+  display:grid !important;
+  grid-template-columns:64px minmax(0,1fr) !important;
+  align-items:center !important;
+  column-gap:13px !important;
+  width:100% !important;
+  overflow:hidden !important;
+}
+
+.sidebar .company-logo-wrap{
+  grid-column:1 !important;
+  margin:0 !important;
+}
+
+.sidebar .company-nav-copy{
+  grid-column:2 !important;
+  min-width:0 !important;
+}
+
+@media(max-width:1000px){
+  .sidebar .sidebar-nav .nav-link{
+    grid-template-columns:36px minmax(0,1fr) !important;
+    column-gap:12px !important;
+  }
+
+  .sidebar .company-nav{
+    grid-template-columns:54px minmax(0,1fr) !important;
+  }
+}
